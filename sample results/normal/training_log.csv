@@ -1,0 +1,4 @@
+Id,Input Directory,Lowerest Image Numbers for large,Highest Image Numbers for large,Number of categories for large,Lowerest Image Numbers for small,Highest Image Numbers for small,Number of categories for small,Validation Loss,Validation Accuracy,Execution Time
+0,Mammalia,500,1000,11,50,0,11,0.8193,0.7520,0:38:23.782950
+1,Insecta,500,1000,11,50,0,11,0.4531,0.8725,0:55:23.442991
+3,Reptilia,500,1000,11,50,0,11,0.7960,0.7323,0:45:09.252771
