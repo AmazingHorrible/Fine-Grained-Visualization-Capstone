@@ -1,0 +1,25 @@
+2 Mode (A, B):
+30-50 64, 50-80 20
+30-50 64, 50-80 40
+30-50 64, 50-80 80
+
+30-50 64, 60-100 16
+30-50 64, 60-100 32
+30-50 64, 60-100 48
+
+30-50 64, 90-150 10
+30-50 64, 90-150 20
+30-50 64, 90-150 40
+
+30-50 64, 120-200 8
+30-50 64, 120-200 16
+30-50 64, 120-200 32
+
+
+
+
+execution script:
+python TransitiveTL.py --dir <your file name> --mode <mode 1: random, mode 2: similar, mode 3: non-similar> --tMin <lower bound for A> --tMax <upper bound for A> --tNum <number of categories for A> --iMin <lower bound for B> --iMax <upper bound for B> --iNum <number of categories for B>
+example for (300-500 20, 30-50 10):
+python TransitiveTL.py --dir Mammalia --mode 2 --tMin 30 --tMax 50 --tNum 64 --iMin 50 --iMax 80 --iNum 20
+
